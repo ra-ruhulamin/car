@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-bg{
+    background-image: url(main-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.w25{
+    width: 25px;
+}
+hr{
+    color: black;
+}
+.nav-link{
+    color: black !important;
+}
+a{
+    font-family: 'Baloo 2', cursive;
+}
+.activee{
+    background-color: rgb(255, 208, 0);
+    padding: 8px 20px !important;
+}
+.nav-brand{
+    width: 150px;
+}
+.nav-brand2{
+    width: 300px;
+}
+.bg-success2{
+    background-color: green;
+}
+
+.notice{
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(255, 208, 0);
+}
+.input_area{
+    background-color: rgb(3, 43, 59);
+}
+.input_header_top div{
+    margin-top: 20px !important;
+}
+.input_header_top div span{
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+
+
+
+
+.input_header_buttom div span{
+    font-family: 'Baloo 2', cursive;
+}
+.main_input_one{
+    margin-top: 50px;
+}
+.main_input_one p{
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    border-bottom: 4px solid black;
+    width: 150px;
+    padding-bottom: 5px;
+}
+
+.main_input_one ul li a{
+    transition: all .4s;
+    text-decoration: none;
+    color:  rgb(255, 208, 0);
+    font-family: 'Baloo 2', cursive;
+}
+
+
+
+
+.main_input_one ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input_area{
+    margin-top: -17px;
+}
+
+
+
+
+.main_input{
+    background-color: rgb(3, 43, 59);
+}
+.main_input_two{
+
+    box-shadow: 0px 5px 5px black;
+}
+.main_input_two div div span{
+    margin: 20px 0;
+    color:  rgb(255, 208, 0);
+    padding-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1rem;
+}.main_input_two div {
+    padding: 10px;
+}
+.main_input_two div div input{
+    margin: 5px;
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    background: none;
+    border: 2px solid black;
+    font-family: 'Baloo 2', cursive;
+    outline: none;
+    color: #fff;
+}
+.main_input_two div div select{
+    margin: 5px;
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    background: none;
+    border: 2px solid black;
+    outline: none;
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+
+}
+.input_footer div{
+    margin: 10px 10px !important;
+}
+.input_footer_link{
+    padding: 8px 20px 5px 20px;
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    transition: all .7s;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+.input_footer_link:hover{
+    color: #fff;
+    background-color: rgb(3, 43, 59);
+}
+
+@media screen and (max-width:500px) {
+    .form-right{
+        margin-top: 50px;
+    }
+    .input_footer{
+        margin-top: 40px;
+    }
+.input_footer_link{
+    padding: 4px 10px 3px 10px;
+    font-size: .8rem;
+}
+.input_footer div{
+    margin: 10px 10px !important;
+}
+}

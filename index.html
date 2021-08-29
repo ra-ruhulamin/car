@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruhul Amin</title>
+</head>
+
+<body>
+    <header class="container-fluid g-0">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top  ">
+            <div class="nav-brand mx-1"><img src="logo.png" alt="logo" class="w-100 mx-2"></div>
+            <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 p-4 p-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link activee" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Design Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Products </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Accessories & Fixings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Delivery Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Customer Reviews</a></li>
+                            <li><a class="dropdown-item" href="#"> Why Choose us?</a></li>
+                            <li><a class="dropdown-item" href="#"> Behind the Scenes</a></li>
+                            <li><a class="dropdown-item" href="#"> FAQ</a></li>
+                            <li><a class="dropdown-item" href="#"> Fitting Instructions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trade Account </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About us </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="notice-board container-fluid g-0">
+            <p class="notice mx-auto text-center py-3 text-dark" id="notice">Delivery Update - Orders are
+                arriving on
+                time. Same day dispatch before 4pm Monday-Friday.</p>
+        </div>
+
+        <div class="container-fluid input_area g-0 pb-2">
+            <div class="input_header">
+                <div class="input_header_top d-flex justify-content-evenly py-2 flex-wrap">
+                    <div class="m-1">
+                        <img src="designer_discount.png" alt="img-11" class="w25"><span
+                            class="input_header_top_text">25% All Number Plates</span>
+                    </div>
+                    <div class="m-1">
+                        <img src="designer_moneyback.png" alt="img-11" class="w25"><span class="input_header_top_text">
+                            14 Daya Money Back Graurantee</span>
+                    </div>
+                    <div class="m-1">
+                        <img src="designer_warranty.png" alt="img-11" class="w25"><span class="input_header_top_text"> 3
+                            Years Warranty</span>
+                    </div>
+                    <div class="m-1">
+                        <img src="/designer_quality.png" alt="img-11" class="w25"><span
+                            class="input_header_top_text">Quality Granteed</span>
+                    </div>
+                    <div class="m-1">
+                        <img src="designer_nodocs.png" alt="img-11" class="w25"><span class="input_header_top_text"> No
+                            Documents Required</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="input_header_buttom d-flex justify-content-evenly py-1 flex-wrap">
+                    <div class="m-1">
+                        <img src="designer_logo.png" alt="img-12" class="nav-brand2">
+                    </div>
+                    <div class="m-1">
+                        <span class="input_header_buttom_text text-white"> Price Was:£31.97</span>
+                    </div>
+                    <div class="m-1">
+                        <span class="input_header_buttom_text text-white">Discount: -£7.99</span>
+                    </div>
+                    <div class="m-1">
+                        <span class="input_header_buttom_text text-warning"> Price Now: £ 23.98</span>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="main_input row p-sm-4">
+                <div class="col-10 offset-1 offset-md-0 col-md-3 main_input_one">
+                    <p>Acrylic Options</p>
+                    <ul>
+                        <li><a href="#">Standard</a></li>
+                        <li><a href="#">Black Gel</a></li>
+                        <li><a href="#">Carbon Gel</a></li>
+                        <li><a href="#">Laser 4D</a></li>
+                    </ul>
+                    <p>Metal Options</p>
+                    <ul>
+                        <li><a href="#">Standard</a></li>
+                        <li><a href="#">Vintage</a></li>
+                    </ul>
+                </div>
+                <div class="col-10 offset-1 offset-md-0 col-md-9 main_input_two">
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <span>Registration</span><input type="text" name="Registration" id="Registration"
+                                    placeholder="Registration"> <br>
+                                <span>Front Size</span> <select name="FrontSize" id="FrontSize">
+                                    <option value="">502 &#xd7; 111mm (15 &#xd7; 4in)</option>
+                                    <option value="10022" >
+                                        152x102mm (6x4in)                  </option>
+                                                  
+                                        <option value="10023" >
+                                        178x127mm (7x5in)                  </option>
+                                                  
+                                        <option value="10024" >
+                                        178x152mm (7x6in)                  </option>
+                                                  
+                                        <option value="10025" >
+                                        203x152mm (8x6in)                  </option>
+                                                  
+                                        <option value="180" >
+                                        229x178mm (9x7in)                  </option>
+                                                  
+                                        <option value="179" >
+                                        279x203mm (11x8in)                  </option>
+                                                  
+                                        <option value="181" >
+                                        303x152mm (12x6in)                  </option>
+                                                  
+                                        <option value="182" >
+                                        330x152mm (13x6in)                  </option>
+                                                  
+                                        <option value="183" >
+                                        330x178mm (13x7in)                  </option>
+                                                  
+                                        <option value="184" >
+                                        330x203mm (13x8in)                  </option>
+                                                  
+                                        <option value="225" >
+                                        356x178mm (14x7in)                  </option>
+                                                  
+                                        <option value="400" >
+                                        229x75mm (9x3in)                  </option>
+                                                  
+                                        <option value="401" >
+                                        305x75mm (12x3in)                  </option>
+                                                  
+                                        <option value="10104" >
+                                        330x89mm (13x3.5in)                  </option>
+                                                  
+                                        <option value="10069" >
+                                        406x89mm (16x3.5in)                  </option>
+                                                  
+                                        <option value="500" >
+                                        355x111mm (14x4.4in)                  </option>
+                                                  
+                                        <option value="501" >
+                                        406x111mm (16x4.4in)                  </option>
+                                                  
+                                        <option value="502" >
+                                        457x111mm (18x4.4in)                  </option>
+                                                  
+                                        <option value="178"  selected="selected" >
+                                        520x111mm (20.5x4.4in)                  </option>
+                                                  
+                                        <option value="185" >
+                                        520x121mm (20.5x4.75in)                  </option>
+                                                  
+                                        <option value="186" >
+                                        520x127mm (20.5x5in)                  </option>
+                                                  
+                                        <option value="187" >
+                                        520x140mm (20.5x5.5in)                  </option>
+                                                  
+                                        <option value="188" >
+                                        520x152mm (20.5x6in)                  </option>
+                                                  
+                                        <option value="189" >
+                                        520x165mm (20.5x6.5in)                  </option>
+                                                  
+                                        <option value="190" >
+                                        533x152mm (21x6in)                  </option>
+                                                  
+                                        <option value="191" >
+                                        559x152mm (22x6in)                  </option>
+                                                  
+                                        <option value="192" >
+                                        565x184mm (22.25x7.25in)               
+                                </select> <br>
+                                <span>Rear Size</span> <select name="RearSize" id="RearSize">
+                                    <option value="10022" >
+                                        152x102mm (6x4in)                  </option>
+                                                  
+                                        <option value="10023" >
+                                        178x127mm (7x5in)                  </option>
+                                                  
+                                        <option value="10024" >
+                                        178x152mm (7x6in)                  </option>
+                                                  
+                                        <option value="10025" >
+                                        203x152mm (8x6in)                  </option>
+                                                  
+                                        <option value="180" >
+                                        229x178mm (9x7in)                  </option>
+                                                  
+                                        <option value="179" >
+                                        279x203mm (11x8in)                  </option>
+                                                  
+                                        <option value="181" >
+                                        303x152mm (12x6in)                  </option>
+                                                  
+                                        <option value="182" >
+                                        330x152mm (13x6in)                  </option>
+                                                  
+                                        <option value="183" >
+                                        330x178mm (13x7in)                  </option>
+                                                  
+                                        <option value="184" >
+                                        330x203mm (13x8in)                  </option>
+                                                  
+                                        <option value="225" >
+                                        356x178mm (14x7in)                  </option>
+                                                  
+                                        <option value="400" >
+                                        229x75mm (9x3in)                  </option>
+                                                  
+                                        <option value="401" >
+                                        305x75mm (12x3in)                  </option>
+                                                  
+                                        <option value="10104" >
+                                        330x89mm (13x3.5in)                  </option>
+                                                  
+                                        <option value="10069" >
+                                        406x89mm (16x3.5in)                  </option>
+                                                  
+                                        <option value="500" >
+                                        355x111mm (14x4.4in)                  </option>
+                                                  
+                                        <option value="501" >
+                                        406x111mm (16x4.4in)                  </option>
+                                                  
+                                        <option value="502" >
+                                        457x111mm (18x4.4in)                  </option>
+                                                  
+                                        <option value="178"  selected="selected" >
+                                        520x111mm (20.5x4.4in)                  </option>
+                                                  
+                                        <option value="185" >
+                                        520x121mm (20.5x4.75in)                  </option>
+                                                  
+                                        <option value="186" >
+                                        520x127mm (20.5x5in)                  </option>
+                                                  
+                                        <option value="187" >
+                                        520x140mm (20.5x5.5in)                  </option>
+                                                  
+                                        <option value="188" >
+                                        520x152mm (20.5x6in)                  </option>
+                                                  
+                                        <option value="189" >
+                                        520x165mm (20.5x6.5in)                  </option>
+                                                  
+                                        <option value="190" >
+                                        533x152mm (21x6in)                  </option>
+                                                  
+                                        <option value="191" >
+                                        559x152mm (22x6in)                  </option>
+                                                  
+                                        <option value="192" >
+                                        565x184mm (22.25x7.25in)               
+                                </select> <br>
+                                <span> Footer Text </span><input type="text" name=" FooterText " id=" FooterText "
+                                    placeholder=" Footer Text "> <br>
+                                <span> Footer Font </span> <select name=" FooterFont " id=" FooterFont ">
+                                    <option value="10230" >
+                                        Arial        </option>
+                                    <option value="10264" >
+                                        Bungee        </option>
+                                    <option value="10265" >
+                                        Cafe        </option>
+                                    <option value="10231" >
+                                        Calibri        </option>
+                                    <option value="10248" >
+                                        Casino        </option>
+                                    <option value="10237" >
+                                        Comic        </option>
+                                    <option value="10236" >
+                                        Courier        </option>
+                                    <option value="10249" >
+                                        Face        </option>
+                                    <option value="10235" >
+                                        Fargo        </option>
+                                    <option value="10233" >
+                                        Helvetica        </option>
+                                    <option value="10266" >
+                                        IBM        </option>
+                                    <option value="10267" >
+                                        Munistic        </option>
+                                    <option value="10268" >
+                                        Playback        </option>
+                                    <option value="10269" >
+                                        Prompt        </option>
+                                    <option value="10270" >
+                                        Raptors        </option>
+                                    <option value="10246" >
+                                        Robot        </option>
+                                    <option value="10271" >
+                                        Saira        </option>
+                                    <option value="10244" >
+                                        Sanidana        </option>
+                                    <option value="10245" >
+                                        Sansita        </option>
+                                    <option value="10251" >
+                                        Sleeping        </option>
+                                    <option value="10232" >
+                                        Times New Roman        </option>
+                                    <option value="10234" >
+                                        Trajan        </option>
+                                    <option value="10229" selected="selected">
+                                        Verdana        </option>
+                                </select> <br>
+                                <span> Footer Colour</span> <select name=" FooterColour" id="FooterColour">
+                                    <option value="226" >
+                                        Aqua        </option>
+                                             <option value="144" selected="selected">
+                                        Black        </option>
+                                             <option value="145" >
+                                        Blue        </option>
+                                             <option value="227" >
+                                        Brown        </option>
+                                             <option value="10058" >
+                                        Dark Green        </option>
+                                             <option value="10060" >
+                                        Dark Grey        </option>
+                                             <option value="146" >
+                                        Green        </option>
+                                             <option value="10775" >
+                                        Green EV        </option>
+                                             <option value="147" >
+                                        Grey        </option>
+                                             <option value="10100" >
+                                        Light Blue        </option>
+                                             <option value="229" >
+                                        Lime        </option>
+                                             <option value="148" >
+                                        Navy        </option>
+                                             <option value="10330" >
+                                        Orange        </option>
+                                             <option value="228" >
+                                        Pink        </option>
+                                             <option value="230" >
+                                        Purple        </option>
+                                             <option value="149" >
+                                        Red        </option>
+                                             <option value="10331" >
+                                        Silver        </option>
+                                             <option value="10144" >
+                                        White        </option>
+                                             <option value="232" >
+                                        Yellow        </option>
+                                </select> <br>
+                            </div>
+                            <div class="col-12 col-sm-6 form-right">
+                                <span>Font</span> <select name="Font" id="Font">
+                                    <option value="90">
+                                        UK Legal </option>
+                                    <option value="3">
+                                        UK 3D </option>
+                                    <option value="10260">
+                                        UK Highline </option>
+                                    <option value="10272">
+                                        UK Half Space </option>
+                                    <option value="10262">
+                                        UK Italics </option>
+                                    <option value="10263">
+                                        UK Ultra Thin </option>
+                                    <option value="10085">
+                                        UK Old </option>
+                                    <option value="10240">
+                                        UK Old 2 </option>
+                                    <option value="10241">
+                                        UK Old 3 </option>
+                                    <option value="10258">
+                                        UK Old 4 </option>
+                                    <option value="10255">
+                                        UK Old 1900 </option>
+                                    <option value="10261">
+                                        UK Old 1935 </option>
+                                    <option value="10256">
+                                        UK Old 1990 </option>
+                                    <option value="10259">
+                                        UK Old 2004 </option>
+                                    <option value="10238">
+                                        Dutch </option>
+                                    <option value="10086">
+                                        French </option>
+                                    <option value="107">
+                                        German </option>
+                                    <option value="10108">
+                                        Irish </option>
+                                    <option value="10273">
+                                        Indian </option>
+                                    <option value="10242">
+                                        Italian </option>
+                                    <option value="158">
+                                        Nordic </option>
+                                    <option value="10239">
+                                        Old USA </option>
+                                    <option value="108">
+                                        USA </option>
+                                    <option value="10230">
+                                        Arial </option>
+                                    <option value="10264">
+                                        Bungee </option>
+                                    <option value="10231">
+                                        Calibri </option>
+                                    <option value="10248">
+                                        Casino </option>
+                                    <option value="10237">
+                                        Comic </option>
+                                    <option value="10236">
+                                        Courier </option>
+                                    <option value="10265">
+                                        Cafe </option>
+                                    <option value="10249">
+                                        Face </option>
+                                    <option value="10235">
+                                        Fargo </option>
+                                    <option value="10233">
+                                        Helvetica </option>
+                                    <option value="10266">
+                                        IBM </option>
+                                    <option value="10267">
+                                        Munistic </option>
+                                    <option value="10268">
+                                        Playback </option>
+                                    <option value="10269">
+                                        Prompt </option>
+                                    <option value="10270">
+                                        Raptors </option>
+                                    <option value="10246">
+                                        Robot </option>
+                                    <option value="10271">
+                                        Saira </option>
+                                    <option value="10244">
+                                        Sanidana </option>
+                                    <option value="10251">
+                                        Sleeping </option>
+                                    <option value="10245">
+                                        Sansita </option>
+                                    <option value="10232">
+                                        Times New Roman </option>
+                                    <option value="10234">
+                                        Trajan </option>
+                                    <option value="10229">
+                                        Verdana </option>
+                                
+                                </select> <br>
+                                <span>Border</span> <select name="Border" id="Border">
+                                    <option value="0">No Border</option>
+                                    <option value="226" >Aqua</option>
+                                    <option value="144" >Black</option>
+                                    <option value="145" >Blue</option>
+                                    <option value="227" >Brown</option>
+                                    <option value="10058" >Dark Green</option>
+                                    <option value="10060" >Dark Grey</option>
+                                    <option value="146" >Green</option>
+                                    <option value="10775" >Green EV</option>
+                                    <option value="147" >Grey</option>
+                                    <option value="10100" >Light Blue</option>
+                                    <option value="229" >Lime</option>
+                                    <option value="148" >Navy</option>
+                                    <option value="10330" >Orange</option>
+                                    <option value="228" >Pink</option>
+                                    <option value="230" >Purple</option>
+                                    <option value="149" >Red</option>
+                                    <option value="10331" >Silver</option>
+                                    <option value="10144" >White</option>
+                                    <option value="232" >Yellow</option>
+                                </select> <br>
+                                <span> Badge</span> <select name="Badge" id="Badge">
+                                    <option value="0" >No Badge</option>      
+                                    <option value="10125"   >-Send Badge via Email-</option>
+                                    <option value="10501"   >Transparent | GB</option>
+                                    <option value="10502"   >Transparent | GB Euro Stars</option>
+                                    <option value="10503"   >Transparent | GB Flag</option>
+                                    <option value="10504"   >Transparent | GB Isles</option>
+                                    <option value="10505"   >Transparent | GB Oval</option>
+                                    <option value="10506"   >Transparent | GB Round</option>
+                                    <option value="10507"   >Transparent | GB Shield</option>
+                                    <option value="10508"   >Transparent | UK</option>
+                                    <option value="10509"   >Transparent | UK Flag</option>
+                                    <option value="10510"   >Transparent | UK Isles</option>
+                                    <option value="10511"   >Transparent | UK Oval</option>
+                                    <option value="10512"   >Transparent | UK Round</option>
+                                    <option value="10513"   >Transparent | UK Shield</option>
+                                    <option value="10514"   >Transparent | ENGLAND - St George</option>
+                                    <option value="10515"   >Transparent | ENG - St George</option>
+                                    <option value="10516"   >Transparent | SCOTLAND - Saltire</option>
+                                    <option value="10517"   >Transparent | SCOTLAND - Lion</option>
+                                    <option value="10518"   >Transparent | SCO - Saltire</option>
+                                    <option value="10519"   >Transparent | SCO - Lion</option>
+                                    <option value="10520"   >Transparent | WALES - Red Dragon</option>
+                                    <option value="10521"   >Transparent | CYM - Red Dragon</option>
+                                    <option value="10522"   >Transparent | CYMRU - Red Dragon</option>
+                                    <option value="10601"   >Colour | GB</option>
+                                    <option value="10602"   >Colour | GB Euro Stars</option>
+                                    <option value="10603"   >Colour | GB Flag</option>
+                                    <option value="10604"   >Colour | GB Isles</option>
+                                    <option value="10605"   >Colour | GB Oval</option>
+                                    <option value="10606"   >Colour | GB Round</option>
+                                    <option value="10607"   >Colour | GB Shield</option>
+                                    <option value="10608"   >Colour | UK</option>
+                                    <option value="10609"   >Colour | UK Flag</option>
+                                    <option value="10610"   >Colour | UK Isles</option>
+                                    <option value="10611"   >Colour | UK Oval</option>
+                                    <option value="10612"   >Colour | UK Round</option>
+                                    <option value="10613"   >Colour | UK Shield</option>
+                                    <option value="10614"   >Colour | ENGLAND - St George</option>
+                                    <option value="10615"   >Colour | ENG - St George</option>
+                                    <option value="10616"   >Colour | SCOTLAND - Saltire</option>
+                                    <option value="10617"   >Colour | SCOTLAND - Lion</option>
+                                    <option value="10618"   >Colour | SCO - Saltire</option>
+                                    <option value="10619"   >Colour | SCO - Lion</option>
+                                    <option value="10620"   >Colour | WALES - Red Dragon</option>
+                                    <option value="10621"   >Colour | CYM - Red Dragon</option>
+                                    <option value="10622"   >Colour | CYMRU - Red Dragon</option>
+                                    <option value="10701"   >Green | EV Plain</option>
+                                    <option value="10702"   >Green | EV Car</option>
+                                    <option value="10703"   >Green | EV Car 2</option>
+                                    <option value="10704"   >Green | EV Car 3</option>
+                                    <option value="10705"   >Green | EV Charger</option>
+                                    <option value="10706"   >Green | EV Leaf</option>
+                                    <option value="10707"   >Green | EV Plug</option>
+                                    <option value="10708"   >Green | EV Zero Co2</option>
+                                    <option value="10709"   >Green | GB</option>
+                                    <option value="10710"   >Green | GB Euro Stars</option>
+                                    <option value="10711"   >Green | GB Flag</option>
+                                    <option value="10712"   >Green | GB Isles</option>
+                                    <option value="10713"   >Green | GB Oval</option>
+                                    <option value="10714"   >Green | GB Round</option>
+                                    <option value="10715"   >Green | GB Shield</option>
+                                    <option value="10716"   >Green | UK</option>
+                                    <option value="10717"   >Green | UK Flag</option>
+                                    <option value="10718"   >Green | UK Isles</option>
+                                    <option value="10719"   >Green | UK Oval</option>
+                                    <option value="10720"   >Green | UK Round</option>
+                                    <option value="10721"   >Green | UK Shield</option>
+                                    <option value="10722"   >Green | ENGLAND - St George</option>
+                                    <option value="10723"   >Green | ENG - St George</option>
+                                    <option value="10724"   >Green | SCOTLAND - Saltire</option>
+                                    <option value="10725"   >Green | SCOTLAND - Lion</option>
+                                    <option value="10726"   >Green | SCO - Saltire</option>
+                                    <option value="10727"   >Green | SCO - Lion</option>
+                                    <option value="10728"   >Green | WALES - Red Dragon</option>
+                                    <option value="10729"   >Green | CYM - Red Dragon</option>
+                                    <option value="10730"   >Green | CYMRU - Red Dragon</option>
+                                    <option value="10296"   >AC Cars</option>
+                                    <option value="10000"   >Alfa Romeo</option>
+                                    <option value="10297"   >Alfa Romeo 2</option>
+                                    <option value="10132"   >Ariel</option>
+                                    <option value="6"   >Aston Martin</option>
+                                    <option value="9999"   >Audi</option>
+                                    <option value="10002"   >Audi 2</option>
+                                    <option value="10084"   >Audi 3</option>
+                                    <option value="10298"   >Audi 4</option>
+                                    <option value="10003"   >Audi Quattro</option>
+                                    <option value="10014"   >Audi RS</option>
+                                    <option value="10299"   >Audi S</option>
+                                    <option value="396"   >Audi SLine</option>
+                                    <option value="8"   >Bentley</option>
+                                    <option value="12"   >BMW</option>
+                                    <option value="10040"   >BMW 2</option>
+                                    <option value="10043"   >BMW 3</option>
+                                    <option value="397"   >BMW AC Schnitzer</option>
+                                    <option value="399"   >BMW Alpina</option>
+                                    <option value="398"   >BMW M</option>
+                                    <option value="10048"   >BMW M 2</option>
+                                    <option value="10301"   >BMW M3</option>
+                                    <option value="10302"   >BMW M5</option>
+                                    <option value="10303"   >BMW M6</option>
+                                    <option value="10304"   >Caterham 7</option>
+                                    <option value="10305"   >Chevrolet</option>
+                                    <option value="14"   >Chrysler</option>
+                                    <option value="10"   >Citroen</option>
+                                    <option value="10140"   >Corvette</option>
+                                    <option value="10306"   >Dacia</option>
+                                    <option value="18"   >Daewoo</option>
+                                    <option value="10307"   >DAF</option>
+                                    <option value="10030"   >Dodge</option>
+                                    <option value="22"   >Ferrari</option>
+                                    <option value="10311"   >Ferrari 2</option>
+                                    <option value="20"   >Fiat</option>
+                                    <option value="10141"   >Fiat 2</option>
+                                    <option value="10015"   >Fiat Arbarth</option>
+                                    <option value="26"   >Ford</option>
+                                    <option value="10044"   >Ford 2</option>
+                                    <option value="10004"   >Ford RS</option>
+                                    <option value="10019"   >Ford ST</option>
+                                    <option value="10313"   >Ford ST 2</option>
+                                    <option value="32"   >Holden</option>
+                                    <option value="30"   >Honda</option>
+                                    <option value="10314"   >Honda 2</option>
+                                    <option value="10001"   >Honda Type R</option>
+                                    <option value="10080"   >Honda Vtech</option>
+                                    <option value="36"   >Hyundai</option>
+                                    <option value="10315"   >Isuzu</option>
+                                    <option value="10316"   >Iveco</option>
+                                    <option value="37"   >Jaguar</option>
+                                    <option value="10005"   >Jaguar 2</option>
+                                    <option value="10081"   >Jaguar 3</option>
+                                    <option value="10137"   >Jaguar 4</option>
+                                    <option value="10032"   >Jeep</option>
+                                    <option value="10083"   >Kia</option>
+                                    <option value="10131"   >Lamborghini</option>
+                                    <option value="10029"   >Lancia</option>
+                                    <option value="39"   >Land Rover</option>
+                                    <option value="10317"   >Land Rover 2</option>
+                                    <option value="10318"   >Land Rover 3</option>
+                                    <option value="41"   >Lexus</option>
+                                    <option value="45"   >Lotus</option>
+                                    <option value="10319"   >Man</option>
+                                    <option value="43"   >Maserati</option>
+                                    <option value="10033"   >Maybach</option>
+                                    <option value="50"   >Mazda</option>
+                                    <option value="10135"   >McLaren</option>
+                                    <option value="48"   >Mercedes</option>
+                                    <option value="10045"   >Mercedes 2</option>
+                                    <option value="10320"   >Mercedes 3</option>
+                                    <option value="10009"   >Mercedes AMG</option>
+                                    <option value="10321"   >Mercedes AMG 2</option>
+                                    <option value="10008"   >Mercedes Brabus</option>
+                                    <option value="65"   >MG</option>
+                                    <option value="10006"   >MG XPower</option>
+                                    <option value="10007"   >MG XPower 2</option>
+                                    <option value="338"   >Mini</option>
+                                    <option value="10017"   >Mini John Cooper Works</option>
+                                    <option value="339"   >Mitsubishi</option>
+                                    <option value="10018"   >Morgan</option>
+                                    <option value="340"   >Nissan</option>
+                                    <option value="10010"   >Nissan GTR</option>
+                                    <option value="10016"   >Noble</option>
+                                    <option value="348"   >Peugeot</option>
+                                    <option value="349"   >Porsche</option>
+                                    <option value="10133"   >Porsche 2</option>
+                                    <option value="10136"   >Range Rover</option>
+                                    <option value="350"   >Renault</option>
+                                    <option value="351"   >Rolls Royce</option>
+                                    <option value="352"   >Rover</option>
+                                    <option value="353"   >Saab</option>
+                                    <option value="10323"   >Scania</option>
+                                    <option value="354"   >Seat</option>
+                                    <option value="355"   >Skoda</option>
+                                    <option value="10034"   >Smart</option>
+                                    <option value="357"   >Subaru</option>
+                                    <option value="10012"   >Subaru STI</option>
+                                    <option value="358"   >Suzuki</option>
+                                    <option value="10326"   >Tesla</option>
+                                    <option value="359"   >Toyota</option>
+                                    <option value="360"   >TVR</option>
+                                    <option value="361"   >Vauxhall</option>
+                                    <option value="10013"   >Vauxhall New</option>
+                                    <option value="10042"   >Vauxhall New 2</option>
+                                    <option value="362"   >Volvo</option>
+                                    <option value="363"   >VW</option>
+                                    <option value="10101"   >VW 2</option>
+                                    <option value="10139"   >VW 3</option>
+                                    <option value="10295"   >Westfield</option>
+                                    <option value="10254"    style="font-weight: bold; color: #000000; background-color: #ffffff;" disabled > Other Badges</option>
+                                    <option value="10300"   >Baby on Board</option>
+                                    <option value="10308"   >Disabled</option>
+                                    <option value="10309"   >Dogs on Board</option>
+                                    <option value="10310"   >England Flag</option>
+                                    <option value="16"   >England Football</option>
+                                    <option value="10079"   >England Football New</option>
+                                    <option value="10312"   >Fishing</option>
+                                    <option value="341"   >Nurburgring</option>
+                                    <option value="10011"   >Nurburgring 2</option>
+                                    <option value="10322"   >Petrol Head</option>
+                                    <option value="10324"   >Scotland Flag</option>
+                                    <option value="10325"   >Stig</option>
+                                    <option value="10327"   >UK Flag</option>
+                                    <option value="10328"   >Wales Flag</option>
+                                </select> <br>
+                                <span> Front QTY</span> <select name=" FrontQTY" id="FrontQTY">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select> <br>
+                                <span>Rear QTY</span> <select name="RearQTY" id="RearQTY">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select> <br>
+                                <span> Legal Details</span> <select name=" LegalDetails" id="LegalDetails">
+                                    <option value="1">Yes</option>
+                                    <option value="2">No</option>
+                                </select> <br>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="input_footer d-flex justify-content-evenly py-2  flex-wrap">
+                <div class="m-1">
+                    <a href="#" class="input_footer_link">Update</a>
+                </div>
+                <div class="m-1">
+                    <a href="#" class="input_footer_link">Reset Design</a>
+                </div>
+                <div class="m-1">
+                    <a href="#" class="input_footer_link">Save Design</a>
+                </div>
+                <div class="m-1">
+                    <a href="#" class="input_footer_link">View Cart</a>
+                </div>
+                <div class="m-1">
+                    <a href="#" class="input_footer_link"> Add to Cart</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
